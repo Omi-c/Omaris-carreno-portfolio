@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redesign Website for Gao Tek Inc | Omaris Carreño</title>
+    <link rel="icon" type="image/png" href="imgs/icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- i18next -->
+    <script src="https://unpkg.com/i18next@23.4.6/dist/umd/i18next.min.js"></script>
+  </head>
+
+  <body>
+    <div class="background-blobs">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </div>
+
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">Portfolio</a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-right" id="navRight">
+        <ul class="nav-menu">
+          <li><a href="about.html" data-i18n="about"></a></li>
+          <li><a href="index.html#experience" data-i18n="experience"></a></li>
+          <li><a href="index.html#projects" data-i18n="projects"></a></li>
+          <li><a href="index.html#websites" data-i18n="websites"></a></li>
+          <li><a href="index.html#skills" data-i18n="skills"></a></li>
+          <li><a href="index.html#contact" data-i18n="contact"></a></li>
+        </ul>
+
+        <div class="lang-toggle">
+          <button class="lang-btn active" onclick="changeLang('en', this)">EN</button>
+          <button class="lang-btn" onclick="changeLang('es', this)">ES</button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="project-hero">
+      <div class="project-hero-content fade">
+        <p class="project-eyebrow" data-i18n="projectCaseStudyLabel"></p>
+        <h1 class="project-hero-title" data-i18n="gaotekProjectTitle"></h1>
+        <p class="project-hero-subtitle" data-i18n="gaotekProjectSubtitle"></p>
+      </div>
+
+      <div class="project-hero-image fade">
+        <img src="imgs/image3.webp" alt="Gao Tek website redesign" />
+      </div>
+    </section>
+
+    <section class="section fade project-section">
+      <div class="project-meta-grid">
+        <div class="project-meta-card">
+          <span class="project-meta-label" data-i18n="projectRoleLabel"></span>
+          <p class="project-meta-value" data-i18n="gaotekProjectRole"></p>
+        </div>
+
+        <div class="project-meta-card">
+          <span class="project-meta-label" data-i18n="projectTypeLabel"></span>
+          <p class="project-meta-value" data-i18n="gaotekProjectType"></p>
+        </div>
+
+        <div class="project-meta-card">
+          <span class="project-meta-label" data-i18n="gaotekCompanyLabel"></span>
+          <p class="project-meta-value">Gao Tek Inc.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade project-section">
+      <h2 class="section-title gradient-text" data-i18n="projectOverviewTitle"></h2>
+      <p class="project-text" data-i18n="gaotekProjectOverview"></p>
+    </section>
+
+    <section class="section fade">
+      <h2 class="section-title gradient-text" data-i18n="projectProblemTitle"></h2>
+      <p class="project-text" data-i18n="gaotekProjectChallenge"></p>
+    </section>
+
+    <section class="section fade project-section project-image-section">
+      <div class="project-hero-image">
+        <img src="imgs/gaotek_challenge.webp" alt="Original Gao Tek website" />
+      </div>
+    </section>
+
+    <section class="section fade project-section project-image-section">
+      <h2 class="section-title gradient-text" data-i18n="projectSolutionTitle"></h2>
+      <p class="project-text" data-i18n="gaotekProjectSolution"></p>
+
+      <div class="project-hero-image">
+        <img src="imgs/gaotek_design.webp" alt="Gao Tek redesign in Figma" />
+      </div>
+    </section>
+
+    <section class="section fade project-section project-image-section">
+      <h2 class="section-title gradient-text" data-i18n="projectResultsTitle"></h2>
+      <p class="project-text" data-i18n="gaotekProjectResult"></p>
+
+      <div class="project-hero-image">
+        <img src="imgs/gaotek_result.webp" alt="Gao Tek final design" />
+      </div>
+    </section>
+
+    <section class="section fade project-navigation">
+      <a href="index.html#projects" class="about-btn" data-i18n="backToProjects"></a>
+      <a href="https://www.figma.com/design/sdoJ45y06o5m2pChG6eLyw/Gao-Tek-Asia-Website-Desing?node-id=0-1&t=mZAYGdBKkoZ7uIUK-1" class="about-btn" target="_blank" data-i18n="figmadesign"></a>
+
+    </section>
+
+    <footer>
+      <p>© 2026 Omaris Carreño</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,194 @@
+{
+  "about": "About Me",
+  "experience": "Experience",
+  "projects": "Projects",
+  "websites": "Websites I've Built",
+  "skills": "Skills",
+  "contact": "Contact",
+  "heroGreeting": "Hello, I'm",
+  "heroSubtitle": "UX/UI Designer • Web Developer",
+  "aboutText": "I’m a Computer Engineer who fell in love with the creative side of the web. I believe that a great website is more than just a digital space, it’s a bridge between a brand’s vision and its users' needs. My background in engineering gives me a logical edge, but my passion lies in UX/UI design. I don’t just build pages; I create intuitive digital journeys where every detail has a purpose. Whether it's a landing page or a complex platform, my goal is always the same: to transform business goals into high-performing solutions that feel natural to use. For me, it’s not just about making things look pretty—it’s about making them work seamlessly to help brands grow and connect with their audience in a meaningful way.",
+  "aboutButton": "Learn More About Me",
+  "contactTitle": "Contact Me",
+  "contactText": "Interested in working together or have a project in mind?",
+  "sendEmail": "Send Email",
+  "linkedin": "LinkedIn",
+  "showMoreWebsites": "Show More Websites",
+  "showLessWebsites": "Show Less",
+  "skillsTitle": "My Skills",
+
+  "exp1Title": "Web Developer & UX/UI Designer",
+  "exp1Date": "June 2025 - Present | Spain",
+  "exp1Item1": "Designed and developed 50+ responsive websites for beauty/wellness clients, from concept to implementation.",
+  "exp1Item2": "Led client consultations and maintained continuous communication to align digital solutions with brand vision and business objectives.",
+  "exp1Item3": "Created conversion-optimized UX/UI designs focused on lead generation and sales.",
+  "exp1Item4": "Implemented foundational on-page SEO strategies enhancing Google visibility and organic traffic.",
+  "exp1Item5": "Ensured pixel-perfect responsive experiences across all devices.",
+  "exp1Item6": "Managed end-to-end website development lifecycle for international clients.",
+
+  "exp2Title": "UX/UI Designer & Frontend Developer",
+  "exp2Date": "September 2022 - Present | Worldwide",
+  "exp2Item1": "Applying comprehensive UX/UI design principles and robust frontend development skills to craft impactful web solutions for businesses and entrepreneurs across various countries, including Venezuela, Colombia, the United States, Canada, and the United Kingdom.",
+  "exp2Item2": "Designed and developed high-converting, responsive landing pages and fully functional e-commerce platforms for D2C, B2C, and online retail businesses, directly impacting their online presence, user experience, and sales growth.",
+  "exp2Item3": "Conducted in-depth user research and translated findings into intuitive wireframes, mockups, and interactive prototypes that enhance user experience and drive engagement.",
+
+  "exp3Title": "UX UI Designer | Wordpress Developer (Project)",
+  "exp3Date": "March - April 2025 | United States",
+  "exp3Item1": "Implemented the comprehensive redesign of Smart Claims' website, significantly enhancing its online presence and user engagement.",
+  "exp3Item2": "Spearheaded SEO strategies that demonstrably improved site visibility and organic traffic.",
+  "exp3Item3": "Developed the website on WordPress, ensuring a fully responsive design optimized for seamless user experiences across all desktop, tablet, and mobile resolutions.",
+  "exp3Item4": "Conducted thorough user research and analysis, translating insights into intuitive UX/UI designs that streamlined user flows and contributed to a 100% improvement in site speed and overall performance.",
+
+  "exp4Title": "UX UI Designer Internship",
+  "exp4Date": "October 2024 - January 2025 | Canada",
+  "exp4Item1": "Designed and prototyped responsive, SEO-optimized web interfaces using Figma.",
+  "exp4Item2": "Conducted user research to inform UX/UI decisions for 5+ projects.",
+  "exp4Item3": "Led company website redesign improving visual design, UX, and information architecture.",
+  "exp4Item4": "Collaborated cross-functionally with development/marketing teams for design implementation.",
+  "exp4Item5": "Developed design guidelines and brand style guides.",
+
+  "exp5Title": "Full Stack Developer",
+  "exp5Date": "June 2023 - April 2024 (Project) | Venezuela",
+  "exp5Item1": "Developed a custom web application automating clinical workflows, modernizing manual processes and boosting operational efficiency by 100%.",
+  "exp5Item2": "Created centralized database system for patient registration and lab transcription, reducing data errors by 50% and speeding processing by 40%.",
+  "exp5Item3": "Designed intuitive staff UI prioritizing simplicity, cutting training time by 30%.",
+  "exp5Item4": "Automated lab result delivery via email/Telegram, reducing turnaround time by 60%.",
+  "exp5Item5": "Built physician dashboard and patient scheduling system using React.js, Tailwind CSS, Nest.js, and MySQL.",
+
+  "aboutPageTitle": "About Me",
+  "aboutPageSubtitle": "UX/UI Designer • Web Developer • Strategic Thinker",
+  "statExperience": "Years of Experience",
+  "statWebsites": "Websites Developed",
+  "statSatisfaction": "Client Satisfaction",
+  "aboutLongTitle": "About Me",
+  "aboutLongText1": "I’m Omaris Carreño, a UX/UI Designer and Web Developer with a strong foundation in technology and a deep passion for creating digital experiences that feel intuitive, strategic, and visually meaningful. My background in Computer Engineering allows me to approach each project not only from a creative perspective, but also from a structured and solution-oriented mindset.",
+  "aboutLongText2": "Over the years, I’ve worked on responsive websites, landing pages, platforms, and digital interfaces for clients in different industries and countries. What I enjoy most is turning ideas into real digital products that align with business goals while still feeling clear, natural, and user-centered.",
+  "aboutLongText3": "My process goes beyond aesthetics. I care deeply about usability, hierarchy, responsive behavior, conversion, and the overall experience users have when interacting with a product. For me, great design is not only about how something looks, but also about how it works, how it communicates, and how it helps a brand connect better with the people it wants to reach.",
+  "servicesTitle": "My Services",
+  "service1": "User Experience Design",
+  "service2": "Web Development",
+  "service3": "Prototyping & Wireframing",
+  "service4": "User Research & Testing",
+  "service5": "Responsive Design",
+  "service6": "SEO Optimization",
+
+
+   "projectCaseStudyLabel": "Case Study",
+  "projectRoleLabel": "Role",
+  "projectTimelineLabel": "Timeline",
+  "projectTypeLabel": "Project Type",
+  "projectToolsLabel": "Tools",
+  "projectOverviewTitle": "About the Project",
+  "projectProblemTitle": "The Challenge",
+  "projectSolutionTitle": "The Solution",
+  "projectDevelopmentImpactTitle": "Development & Impact",
+  "projectResultsTitle": "Key Metrics",
+  "projectTechTitle": "Tools Used",
+  "projectLearningsTitle": "Lessons & Growth",
+  "backToProjects": "Back to Projects",
+  "figmadesign": "View Figma Design",
+
+  "labProjectTitle": "Clinical Laboratory Management Web System",
+  "labProjectSubtitle": "A custom full-stack platform built to digitize laboratory workflows, centralize records, and automate result delivery.",
+  "labProjectRole": "Full-Stack Developer",
+  "labProjectTimeline": "Custom Project",
+  "labProjectType": "Clinical Laboratory Web Application",
+  "labProjectTools": "React.js, Tailwind CSS, Nest.js, MySQL",
+
+  "labProjectOverview": "Loma Linda Clinical Laboratory needed to modernize an outdated manual workflow by transitioning to a fully digital system. Their goals were to centralize patient records and inventory management, simplify lab result transcription, and automate report delivery to reduce administrative overhead. To address these needs, I designed and developed a custom web application that introduced real-time patient registration, integrated inventory tracking, and automated result distribution through email and Telegram.",
+
+  "labProjectProblem": "The laboratory relied on manual, error-prone processes that slowed down operations and increased administrative workload. Patient information, inventory control, and report delivery were disconnected, making it difficult to maintain efficiency, accuracy, and timely communication.",
+
+  "labProjectSolution": "I built a custom web application that digitized the laboratory's workflow end to end. The platform centralized patient records, inventory, appointments, and test histories in one secure system. It also automated report delivery and reduced repetitive manual tasks, creating a faster and more reliable process for both staff and physicians.",
+
+  "labProjectDevelopmentImpact": "Using React.js and Tailwind CSS, I created an intuitive frontend with clear navigation and role-specific dashboards that reduced staff training time by 30%. On the backend, Nest.js and MySQL provided secure and scalable data handling for more than 5,000 patient records. A dedicated physician portal allowed doctors to instantly access test histories, while staff managed appointments and inventory more efficiently. The lab reported a 50% reduction in data errors and a 100% improvement in operational efficiency, transforming their workflow into a streamlined, patient-centered system.",
+
+  "projectMetric1Title": "60% Faster Reporting",
+  "projectMetric2Title": "50% Fewer Errors",
+  "projectMetric3Title": "30% Shorter Training",
+
+  "labProjectMetric1": "Automated report distribution significantly reduced turnaround time.",
+  "labProjectMetric2": "Centralized records and automation lowered the number of manual data mistakes.",
+  "labProjectMetric3": "Clear navigation and role-based dashboards made onboarding much faster for staff.",
+
+  "labProjectLearnings": "This project pushed me to balance technical precision with user-centered design under tight deadlines. I strengthened my full-stack development skills, especially in integrating React.js with Nest.js for seamless frontend-backend communication. Working with sensitive medical data deepened my understanding of security and scalability, while building role-specific dashboards improved my ability to tailor interfaces to different users. One of the biggest challenges was ensuring real-time lab result updates across email and Telegram, which led me to refine API efficiency and error handling. More than anything, this project reinforced my passion for building practical tools that solve real-world problems.",
+
+  "cinemaProjectTitle": "Cinema App for Cines Unidos",
+"cinemaProjectSubtitle": "UX/UI design of a mobile app focused on simplifying ticket booking and enhancing the movie experience.",
+"cinemaProjectRole": "UX/UI Designer",
+"cinemaProjectType": "Mobile App Design",
+
+"cinemaProjectOverview": "Cines Unidos, a well-known cinema chain, lacked a dedicated mobile application, making it difficult for users to browse movies, book tickets, and stay updated on promotions. To address this, I designed a modern and user-friendly mobile app that reflects the brand’s identity while enhancing the overall moviegoing experience.",
+
+"cinemaProjectChallenge": "The existing website had a complex structure that made navigation and ticket booking tedious. Some processes required multiple steps, and the interface lacked accessibility due to issues with font sizes and color contrast. The goal was to simplify the experience by creating an intuitive, easy-to-use, and inclusive mobile app.",
+
+"cinemaWireframeTitle": "Wireframe & User Flow",
+"cinemaWireframeText": "I created a low-fidelity wireframe to define the app’s structure and user flow. This allowed me to map out key screens such as home, movie selection, ticket booking, seat selection, payment, and user profile. The wireframe ensured a clear, intuitive navigation before moving into high-fidelity design.",
+
+"cinemaProjectSolution": "The final design incorporates Cines Unidos’ brand identity with a clean interface and intuitive navigation. Features include a streamlined booking process, personalized recommendations, and an organized layout for movie schedules. Accessibility improvements ensure a seamless experience for all users.",
+
+"cinemaProjectResult": "The final app design delivers a visually engaging and highly functional experience. It improves usability, simplifies ticket purchasing, and aligns with modern UX/UI standards, enhancing user satisfaction and overall engagement with the brand.",
+
+"gaotekCompanyLabel": "Company",
+"gaotekProjectTitle": "Redesign Website for Gao Tek Inc",
+"gaotekProjectSubtitle": "A UX/UI redesign focused on improving readability, usability, and the overall digital experience.",
+"gaotekProjectRole": "UX/UI Designer",
+"gaotekProjectType": "Internship Project",
+
+"gaotekProjectOverview": "Gao Tek Inc., a global supplier of test and measurement equipment, needed a website redesign to improve usability, readability, and overall user experience. The existing site felt cluttered, visually overwhelming, and difficult to navigate. My goal was to create a modern, structured, and engaging design that communicated information more effectively while maintaining the brand’s identity.",
+
+"gaotekProjectChallenge": "The original website was heavily text-based, with information grouped into dense blocks that were difficult to read and navigate. The lack of white space and visual hierarchy created a poor experience, especially for first-time visitors. The challenge was to modernize the design while preserving the company’s branding and professional tone.",
+
+"gaotekProjectSolution": "To improve usability and visual appeal, I restructured the content into clearer, more digestible sections and introduced a modern layout with stronger visual hierarchy. I optimized spacing, typography, and navigation to create a cleaner and more professional experience. The redesign preserved Gao Tek Inc.’s branding while making the website more accessible, easier to scan, and fully responsive across devices.",
+
+"gaotekProjectResult": "The final design significantly improved the user experience by making the website more intuitive, accessible, and visually appealing. The new structure helped users find relevant information more quickly, increased engagement, and presented the company through a more modern and professional digital presence. It also better showcased Gao Tek Inc.’s products, services, and job opportunities.",
+
+"foodCompanyLabel": "Company",
+"foodProjectTitle": "Food Delivery App",
+"foodProjectSubtitle": "A mobile app concept designed during my internship at Gao Tek to create a seamless and intuitive food ordering experience.",
+"foodProjectRole": "UX/UI Designer",
+"foodProjectType": "Internship Project",
+
+"foodProjectOverview": "As part of my internship at Gao Tek, I was assigned the task of designing a mobile delivery application from scratch, following the company’s guidelines. The goal was to create a modern, user-friendly app tailored for both young and adult users, ensuring a seamless and intuitive experience. The project required careful planning, a clean visual design, and all essential screens needed to support smooth navigation and interaction.",
+
+"foodWireframeTitle": "Wireframe & Structure",
+"foodWireframeText": "I created a wireframe to define the application's structure and user flow. This wireframe established the layout foundation and helped organize elements across different screens. It ensured logical navigation, efficient information display, and an optimal user experience by outlining the placement of buttons, menus, and key interface components.",
+
+"foodProjectSolution": "To build an efficient and visually appealing delivery application, I structured the interface with clear sections, prioritizing accessibility and ease of use. The design incorporates modern UI elements, a balanced color palette, and intuitive icons to guide users naturally through the ordering process. Every screen was designed to enhance usability, from restaurant selection to order tracking and customer support.",
+
+"foodProjectResult": "The final TasteGo design delivers a user-friendly and visually engaging food delivery experience. The structured layout, smooth navigation, and responsive design support an effortless ordering process. By integrating features such as real-time tracking and chat support, the app offers a complete solution that meets user needs while maintaining a modern and polished aesthetic.",
+
+
+"thermalCompanyLabel": "Company",
+"thermalProjectTitle": "Thermal Springs App Design",
+"thermalProjectSubtitle": "A mobile app concept designed to simplify booking and enhance the spa experience for all users.",
+"thermalProjectRole": "UX/UI Designer",
+"thermalProjectType": "Conceptual Project",
+
+"thermalProjectOverview": "I designed a mobile app for Las Trincheras that allows visitors to book accommodations, explore spa services, view pricing, and navigate facilities seamlessly. The goal was to create an intuitive and visually appealing solution that enhances accessibility and simplifies the booking process for users of all ages.",
+
+"thermalProjectChallenge": "Las Trincheras did not offer an online booking system, requiring customers to make reservations by phone. This outdated approach limited convenience and did not meet modern expectations. Additionally, the app needed to be accessible to a diverse audience, from young users to older visitors, requiring a balance between simplicity, clarity, and visual appeal.",
+
+"thermalProjectSolution": "I designed a user-friendly mobile app with a modern interface that simplifies navigation and improves the overall experience. The app integrates a complete booking system for rooms, spa treatments, and entrance tickets. It also organizes information about pools, restaurants, and wellness services in a clear and accessible way, ensuring users can easily explore and plan their visit.",
+
+"thermalProjectResult": "The final design transforms the Las Trincheras experience by making reservations easier and improving accessibility to services. Users can now book, explore, and navigate the spa effortlessly through a modern and cohesive interface. The app strengthens the brand’s digital presence while providing a seamless experience for a wide range of users.",
+
+
+"smartCompanyLabel": "Company",
+"smartProjectTitle": "Smart Claims Website Re-Design",
+"smartProjectSubtitle": "A full redesign, development, and SEO optimization project focused on improving user experience and online visibility.",
+"smartProjectRole": "Designer & Developer",
+"smartProjectType": "Re-Design Project",
+
+"smartProjectOverview": "This project focused on the complete redesign and optimization of the Smart Claims Administration website. The objective was to improve user experience, strengthen the brand’s digital presence, and ensure full responsiveness and SEO optimization. My role included user research, UX/UI design, and full WordPress implementation using Elementor, aligning the final result with business goals and improving search engine visibility.",
+
+"smartProjectChallenge": "The project had a tight deadline, requiring a fast and structured workflow that included research, UX/UI design, development, responsiveness, and SEO optimization. Another key challenge was translating the Figma design into Elementor while maintaining pixel-perfect accuracy. Ensuring consistency in layout, typography, spacing, and responsiveness across all devices required precision and advanced customization.",
+
+"smartWireframeTitle": "Wireframe & Structure",
+"smartWireframeText": "During the wireframing phase, I created low-fidelity layouts to define the structure and validate user flows. I also analyzed the previous website to identify areas of improvement and better understand content organization. These early designs helped guide both the design and development stages efficiently.",
+
+"smartProjectSolution": "I designed a clean, modern, and professional interface aligned with the brand identity. Through user-centered research, I structured the content to improve navigation, readability, and trust. The design was implemented in WordPress using Elementor, optimizing responsiveness, performance, and SEO. Key sections such as services, blogs, contact forms, and FAQs were organized to enhance usability and credibility.",
+
+"smartProjectResult": "The final result was a fully redesigned, responsive, and SEO-optimized website that significantly improved user experience and online presence. The site now offers fast loading times, better accessibility, and stronger search engine performance. The Figma design was implemented with high fidelity, delivering a consistent and professional experience across all devices."
+}
+

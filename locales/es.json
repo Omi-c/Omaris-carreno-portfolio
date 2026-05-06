@@ -1,0 +1,197 @@
+{
+  "about": "Sobre mí",
+  "experience": "Experiencia",
+  "projects": "Proyectos",
+  "websites": "Webs Creadas",
+  "skills": "Habilidades",
+  "contact": "Contacto",
+  "heroGreeting": "Hola, soy",
+  "heroSubtitle": "Diseñadora UX/UI • Desarrolladora Web",
+  "aboutText": "Soy Ingeniera en Computación, pero fue en el diseño y en la experiencia digital donde encontré la forma de unir estrategia, creatividad y tecnología. Me apasiona crear sitios web que no solo se vean bien, sino que también tengan una intención clara: comunicar mejor, conectar con las personas adecuadas y ayudar a que una marca crezca. Mi perfil combina lógica técnica y sensibilidad visual, lo que me permite pensar cada proyecto desde ambos lados: cómo funciona y cómo se siente. Trabajo diseñando y desarrollando experiencias web centradas en el usuario, cuidando la estructura, la usabilidad, el contenido y cada detalle visual para que todo tenga coherencia. Ya sea una landing page, una web corporativa o una plataforma más completa, mi objetivo es construir soluciones digitales que sean intuitivas, atractivas y realmente efectivas para el negocio.",
+  "aboutButton": "Conoce más sobre mí",
+  "contactTitle": "Contáctame",
+  "contactText": "¿Te interesa trabajar conmigo o tienes un proyecto en mente?",
+  "sendEmail": "Enviar correo",
+  "linkedin": "LinkedIn",
+  "showMoreWebsites": "Ver más sitios web",
+  "showLessWebsites": "Ver menos",
+  "skillsTitle": "Mis habilidades",
+
+  "exp1Title": "Desarrolladora Web y Diseñadora UX/UI",
+  "exp1Date": "Junio 2025 - Actualidad | España",
+  "exp1Item1": "Diseñé y desarrollé más de 50 sitios web responsive para clientes del sector belleza y bienestar, desde la conceptualización hasta la implementación final.",
+  "exp1Item2": "Lideré reuniones y consultorías con clientes, manteniendo una comunicación constante para alinear cada solución digital con la visión de marca y los objetivos del negocio.",
+  "exp1Item3": "Creé diseños UX/UI orientados a la conversión, con foco en generación de leads y aumento de ventas.",
+  "exp1Item4": "Implementé estrategias base de SEO on-page para mejorar la visibilidad en Google y favorecer el crecimiento del tráfico orgánico.",
+  "exp1Item5": "Aseguré experiencias responsive precisas y consistentes en escritorio, tablet y móvil.",
+  "exp1Item6": "Gestioné de principio a fin el desarrollo de sitios web para clientes internacionales.",
+
+  "exp2Title": "Diseñadora UX/UI y Desarrolladora Frontend",
+  "exp2Date": "Septiembre 2022 - Actualidad | Remoto / Internacional",
+  "exp2Item1": "He trabajado con empresas y emprendedores de distintos países, aplicando principios sólidos de UX/UI y desarrollo frontend para crear soluciones web funcionales, atractivas y con impacto real.",
+  "exp2Item2": "Diseñé y desarrollé landing pages de alta conversión y plataformas e-commerce completamente funcionales para negocios D2C, B2C y retail online, mejorando su presencia digital, experiencia de usuario y resultados comerciales.",
+  "exp2Item3": "Realicé investigación de usuarios y traduje esos hallazgos en wireframes, mockups y prototipos interactivos que mejoran la navegación, la claridad y el engagement.",
+
+  "exp3Title": "Diseñadora UX/UI | Desarrolladora WordPress (Proyecto)",
+  "exp3Date": "Marzo - Abril 2025 | Estados Unidos",
+  "exp3Item1": "Implementé el rediseño integral del sitio web de Smart Claims, fortaleciendo su presencia digital y mejorando la interacción de los usuarios con la marca.",
+  "exp3Item2": "Impulsé estrategias SEO que mejoraron de forma notable la visibilidad del sitio y su rendimiento en tráfico orgánico.",
+  "exp3Item3": "Desarrollé el sitio en WordPress con un enfoque completamente responsive, garantizando una experiencia fluida en desktop, tablet y móvil.",
+  "exp3Item4": "Llevé a cabo investigación y análisis de usuarios para convertir insights en decisiones de diseño UX/UI más efectivas, optimizando los flujos de navegación y contribuyendo a una mejora del 100% en la velocidad y el rendimiento general del sitio.",
+
+  "exp4Title": "Pasantía en Diseño UX/UI",
+  "exp4Date": "Octubre 2024 - Enero 2025 | Canadá",
+  "exp4Item1": "Diseñé y prototipé interfaces web responsive y optimizadas para SEO utilizando Figma.",
+  "exp4Item2": "Realicé investigación de usuarios para respaldar decisiones de UX/UI en más de 5 proyectos.",
+  "exp4Item3": "Participé en el rediseño del sitio web de la empresa, mejorando el diseño visual, la experiencia de usuario y la arquitectura de la información.",
+  "exp4Item4": "Colaboré con equipos de desarrollo y marketing para asegurar una implementación coherente de las propuestas de diseño.",
+  "exp4Item5": "Desarrollé lineamientos de diseño y guías de estilo de marca.",
+
+  "exp5Title": "Desarrolladora Full Stack",
+  "exp5Date": "Junio 2023 - Abril 2024 (Proyecto) | Venezuela",
+  "exp5Item1": "Desarrollé una aplicación web personalizada para automatizar flujos clínicos, modernizando procesos manuales y aumentando la eficiencia operativa en un 100%.",
+  "exp5Item2": "Creé un sistema centralizado de base de datos para el registro de pacientes y la transcripción de laboratorio, reduciendo errores en un 50% y acelerando el procesamiento en un 40%.",
+  "exp5Item3": "Diseñé una interfaz intuitiva para el personal, priorizando la simplicidad y reduciendo el tiempo de capacitación en un 30%.",
+  "exp5Item4": "Automaticé el envío de resultados de laboratorio por correo electrónico y Telegram, reduciendo el tiempo de entrega en un 60%.",
+  "exp5Item5": "Desarrollé un panel para médicos y un sistema de gestión de citas utilizando React.js, Tailwind CSS, Nest.js y MySQL.",
+
+   "aboutPageTitle": "Sobre mí",
+  "aboutPageSubtitle": "Diseñadora UX/UI • Desarrolladora Web • Pensamiento estratégico",
+  "statExperience": "Años de experiencia",
+  "statWebsites": "Sitios web desarrollados",
+  "statSatisfaction": "Satisfacción de clientes",
+  "aboutLongTitle": "Sobre mí",
+  "aboutLongText1": "Soy Omaris Carreño, diseñadora UX/UI y desarrolladora web, con una base sólida en tecnología y una forma de trabajar que une estrategia, creatividad y visión de negocio. Mi formación en Ingeniería Informática me permite abordar cada proyecto no solo desde lo visual, sino también desde la estructura, la lógica y la búsqueda de soluciones reales.",
+  "aboutLongText2": "A lo largo de mi trayectoria he trabajado en sitios web responsive, landing pages, interfaces y plataformas digitales para clientes de distintos sectores y países con diversas herramientas y tecnologías. Lo que más disfruto de este proceso es transformar ideas en experiencias digitales claras, funcionales y alineadas con los objetivos de cada marca.",
+  "aboutLongText3": "Para mí, diseñar no es solo hacer que algo se vea bien. También implica pensar en la usabilidad, la jerarquía visual, el comportamiento responsive, la conversión y en cómo se siente una persona al interactuar con un producto digital. Busco crear soluciones que conecten estética y funcionalidad, para que cada sitio no solo comunique mejor, sino que también ayude a una marca a crecer y diferenciarse.",
+  "servicesTitle": "Mis servicios",
+  "service1": "Diseño de experiencia de usuario",
+  "service2": "Desarrollo web",
+  "service3": "Prototipado y wireframing",
+  "service4": "Investigación y testing de usuarios",
+  "service5": "Diseño responsive",
+  "service6": "Optimización SEO",
+
+
+   "projectCaseStudyLabel": "Caso de estudio",
+  "projectRoleLabel": "Rol",
+  "projectTimelineLabel": "Duración",
+  "projectTypeLabel": "Tipo de proyecto",
+  "projectToolsLabel": "Herramientas",
+  "projectOverviewTitle": "Sobre el proyecto",
+  "projectProblemTitle": "El desafío",
+  "projectSolutionTitle": "La solución",
+  "projectDevelopmentImpactTitle": "Desarrollo e impacto",
+  "projectResultsTitle": "Métricas clave",
+  "projectTechTitle": "Herramientas utilizadas",
+  "projectLearningsTitle": "Aprendizajes y crecimiento",
+  "backToProjects": "Volver a proyectos",
+  "figmadesign": "Ver diseño en Figma",
+
+  "labProjectTitle": "Sistema Web de Gestión para Laboratorio Clínico",
+  "labProjectSubtitle": "Una plataforma full-stack personalizada desarrollada para digitalizar flujos de trabajo del laboratorio, centralizar registros y automatizar la entrega de resultados.",
+  "labProjectRole": "Desarrolladora Full-Stack",
+  "labProjectTimeline": "Proyecto personalizado",
+  "labProjectType": "Aplicación web para laboratorio clínico",
+  "labProjectTools": "React.js, Tailwind CSS, Nest.js, MySQL",
+
+  "labProjectOverview": "El Laboratorio Clínico Loma Linda necesitaba modernizar un flujo de trabajo manual y obsoleto mediante la transición a un sistema totalmente digital. Sus objetivos eran centralizar los registros de pacientes y la gestión de inventario, simplificar la transcripción de resultados y automatizar la entrega de reportes para reducir la carga administrativa. Para responder a estas necesidades, diseñé y desarrollé una aplicación web personalizada que incorporó registro de pacientes en tiempo real, seguimiento integrado de inventario y distribución automática de resultados por correo electrónico y Telegram.",
+
+  "labProjectProblem": "El laboratorio dependía de procesos manuales propensos a errores que ralentizaban las operaciones y aumentaban la carga administrativa. La información de pacientes, el control de inventario y la entrega de reportes estaban desconectados, lo que dificultaba mantener la eficiencia, la precisión y una comunicación oportuna.",
+
+  "labProjectSolution": "Desarrollé una aplicación web personalizada que digitalizó de principio a fin el flujo de trabajo del laboratorio. La plataforma centralizó registros de pacientes, inventario, citas e historiales de exámenes en un sistema seguro. También automatizó la entrega de reportes y redujo tareas manuales repetitivas, creando un proceso más rápido y confiable tanto para el personal como para los médicos.",
+
+  "labProjectDevelopmentImpact": "Con React.js y Tailwind CSS desarrollé un frontend intuitivo con navegación clara y paneles específicos por rol, lo que redujo en un 30% el tiempo de capacitación del personal. En el backend, Nest.js y MySQL permitieron una gestión segura y escalable de más de 5.000 registros de pacientes. Un portal exclusivo para médicos les permitió acceder instantáneamente al historial de exámenes, mientras que el personal podía gestionar citas e inventario de forma más eficiente. El laboratorio reportó una reducción del 50% en errores de datos y una mejora del 100% en la eficiencia operativa, transformando su flujo de trabajo en un sistema ágil y centrado en el paciente.",
+
+  "projectMetric1Title": "60% más rapidez en reportes",
+  "projectMetric2Title": "50% menos errores",
+  "projectMetric3Title": "30% menos tiempo de capacitación",
+
+  "labProjectMetric1": "La distribución automatizada de reportes redujo de forma importante el tiempo de entrega.",
+  "labProjectMetric2": "La centralización de registros y la automatización disminuyeron los errores manuales en los datos.",
+  "labProjectMetric3": "La navegación clara y los paneles por rol facilitaron una incorporación más rápida del personal.",
+
+  "labProjectLearnings": "Este proyecto me desafió a equilibrar precisión técnica con diseño centrado en el usuario bajo plazos exigentes. Fortalecí mis habilidades en desarrollo full-stack, especialmente en la integración de React.js con Nest.js para una comunicación fluida entre frontend y backend. Trabajar con datos médicos sensibles profundizó mi comprensión sobre seguridad y escalabilidad, mientras que diseñar paneles específicos por rol mejoró mi capacidad para adaptar interfaces a distintos tipos de usuarios. Uno de los mayores retos fue asegurar actualizaciones en tiempo real de resultados a través de correo electrónico y Telegram, lo que me llevó a optimizar la eficiencia de las APIs y el manejo de errores. Sobre todo, este proyecto reafirmó mi pasión por crear herramientas útiles que resuelvan problemas reales.",
+
+  "cinemaProjectTitle": "App de Cine para Cines Unidos",
+"cinemaProjectSubtitle": "Diseño UX/UI de una aplicación móvil enfocada en simplificar la compra de entradas y mejorar la experiencia del usuario.",
+"cinemaProjectRole": "Diseñadora UX/UI",
+"cinemaProjectType": "Diseño de Aplicación Móvil",
+
+"cinemaProjectOverview": "Cines Unidos, una reconocida cadena de cines, no contaba con una aplicación móvil propia, lo que dificultaba a los usuarios explorar películas, comprar entradas y mantenerse informados sobre promociones. Para resolverlo, diseñé una app moderna e intuitiva que refleja la identidad de la marca y mejora la experiencia del usuario.",
+
+"cinemaProjectChallenge": "El sitio web existente tenía una estructura compleja que hacía que la navegación y la compra de entradas fueran procesos tediosos. Algunas acciones requerían múltiples pasos y la interfaz presentaba problemas de accesibilidad, como tamaños de texto y contrastes inadecuados. El objetivo fue simplificar la experiencia con una app clara, intuitiva e inclusiva.",
+
+"cinemaWireframeTitle": "Wireframe y flujo de usuario",
+"cinemaWireframeText": "Creé un wireframe de baja fidelidad para definir la estructura y el flujo de navegación de la aplicación. Incluye pantallas clave como inicio, selección de películas, compra de entradas, selección de asientos, pago y perfil de usuario. Esto permitió garantizar una experiencia clara antes del diseño final.",
+
+"cinemaProjectSolution": "El diseño final integra la identidad visual de Cines Unidos con una interfaz limpia y navegación intuitiva. Incluye un sistema de compra optimizado, recomendaciones personalizadas y una organización clara de horarios. También se mejoró la accesibilidad para todos los usuarios.",
+
+"cinemaProjectResult": "El resultado es una aplicación visualmente atractiva y altamente funcional que mejora la experiencia del usuario. Simplifica la compra de entradas, mejora la navegación y se alinea con estándares modernos de UX/UI.",
+
+
+"gaotekCompanyLabel": "Empresa",
+"gaotekProjectTitle": "Rediseño Web para Gao Tek Inc",
+"gaotekProjectSubtitle": "Un rediseño UX/UI enfocado en mejorar la legibilidad, la usabilidad y la experiencia digital general.",
+"gaotekProjectRole": "Diseñadora UX/UI",
+"gaotekProjectType": "Proyecto de pasantía",
+
+"gaotekProjectOverview": "Gao Tek Inc., proveedor global de equipos de prueba y medición, necesitaba un rediseño web para mejorar la usabilidad, la legibilidad y la experiencia general del usuario. El sitio existente se percibía saturado, visualmente abrumador y difícil de navegar. Mi objetivo fue crear un diseño moderno, estructurado y atractivo que comunicara la información de forma más efectiva sin perder la identidad de la marca.",
+
+"gaotekProjectChallenge": "El sitio original estaba muy cargado de texto, con información agrupada en bloques densos que dificultaban la lectura y la navegación. La falta de espacios en blanco y de jerarquía visual generaba una mala experiencia, especialmente para nuevos visitantes. El reto consistía en modernizar el diseño manteniendo la identidad de la empresa y su tono profesional.",
+
+"gaotekProjectSolution": "Para mejorar la usabilidad y el atractivo visual, reorganicé el contenido en secciones más claras y fáciles de procesar, e introduje un layout moderno con una jerarquía visual más marcada. Optimicé espaciados, tipografía y navegación para crear una experiencia más limpia y profesional. El rediseño mantuvo la identidad visual de Gao Tek Inc., al mismo tiempo que hizo el sitio más accesible, fácil de escanear y completamente responsive en distintos dispositivos.",
+
+"gaotekProjectResult": "El diseño final mejoró significativamente la experiencia del usuario al hacer el sitio más intuitivo, accesible y visualmente atractivo. La nueva estructura permitió encontrar información relevante con mayor rapidez, aumentó el engagement y presentó a la empresa con una presencia digital más moderna y profesional. Además, permitió mostrar mejor sus productos, servicios y oportunidades laborales.",
+
+
+"foodCompanyLabel": "Empresa",
+"foodProjectTitle": "App de Delivery de Comida",
+"foodProjectSubtitle": "Un concepto de aplicación móvil diseñado durante mi internship en Gao Tek para crear una experiencia de pedido intuitiva y fluida.",
+"foodProjectRole": "Diseñadora UX/UI",
+"foodProjectType": "Proyecto de pasantía",
+
+"foodProjectOverview": "Como parte de mi internship en Gao Tek, se me asignó la tarea de diseñar desde cero una aplicación móvil de delivery, siguiendo las directrices de la empresa. El objetivo era crear una app moderna y fácil de usar, pensada tanto para usuarios jóvenes como adultos, asegurando una experiencia intuitiva y fluida. El proyecto requirió planificación cuidadosa, un diseño visual limpio y la inclusión de todas las pantallas esenciales para facilitar la navegación y la interacción.",
+
+"foodWireframeTitle": "Wireframe y estructura",
+"foodWireframeText": "Creé un wireframe para definir la estructura de la aplicación y el flujo de usuario. Este wireframe sirvió como base del layout y ayudó a organizar los elementos en las distintas pantallas. Permitió asegurar una navegación lógica, una visualización eficiente de la información y una experiencia óptima al definir la ubicación de botones, menús y componentes clave de la interfaz.",
+
+"foodProjectSolution": "Para construir una aplicación de delivery eficiente y visualmente atractiva, estructuré la interfaz con secciones claras, priorizando la accesibilidad y la facilidad de uso. El diseño incorpora elementos UI modernos, una paleta de colores equilibrada e iconos intuitivos para guiar al usuario de forma natural durante el proceso de pedido. Cada pantalla fue diseñada para mejorar la usabilidad, desde la selección de restaurantes hasta el seguimiento del pedido y la atención al cliente.",
+
+"foodProjectResult": "El diseño final de TasteGo ofrece una experiencia de delivery visualmente atractiva y fácil de usar. La estructura clara, la navegación fluida y el diseño responsive permiten un proceso de pedido sin fricciones. Al integrar funciones como seguimiento en tiempo real y soporte por chat, la app ofrece una solución completa que responde a las necesidades del usuario manteniendo una estética moderna y cuidada.",
+
+
+"thermalCompanyLabel": "Empresa",
+"thermalProjectTitle": "App de Aguas Termales",
+"thermalProjectSubtitle": "Un concepto de app móvil diseñado para simplificar reservas y mejorar la experiencia del spa.",
+"thermalProjectRole": "Diseñadora UX/UI",
+"thermalProjectType": "Proyecto conceptual",
+
+"thermalProjectOverview": "Diseñé una aplicación móvil para Las Trincheras que permite a los usuarios reservar alojamientos, explorar servicios de spa, consultar precios y navegar por las instalaciones de forma sencilla. El objetivo fue crear una solución intuitiva y visualmente atractiva que mejorara la accesibilidad y simplificara el proceso de reserva para todo tipo de usuarios.",
+
+"thermalProjectChallenge": "Las Trincheras no contaba con un sistema de reservas online, obligando a los clientes a llamar por teléfono. Este enfoque limitaba la comodidad y no se alineaba con las expectativas actuales. Además, la app debía ser accesible para usuarios de todas las edades, lo que implicaba diseñar una experiencia clara, simple y visualmente atractiva.",
+
+"thermalProjectSolution": "Diseñé una app móvil intuitiva con una interfaz moderna que simplifica la navegación y mejora la experiencia del usuario. La aplicación integra un sistema completo de reservas para habitaciones, tratamientos de spa y entradas. Además, organiza la información sobre piscinas, restaurantes y servicios de bienestar de forma clara, permitiendo a los usuarios explorar y planificar su visita fácilmente.",
+
+"thermalProjectResult": "El diseño final transforma la experiencia de Las Trincheras al facilitar las reservas y mejorar el acceso a los servicios. Los usuarios pueden explorar, reservar y navegar de manera sencilla a través de una interfaz moderna y coherente. La app refuerza la presencia digital de la marca y ofrece una experiencia fluida para un público diverso.",
+
+
+
+"smartCompanyLabel": "Empresa",
+"smartProjectTitle": "Rediseño Web Smart Claims",
+"smartProjectSubtitle": "Un proyecto completo de rediseño, desarrollo y optimización SEO enfocado en mejorar la experiencia del usuario y la visibilidad online.",
+"smartProjectRole": "Diseñadora y Desarrolladora",
+"smartProjectType": "Proyecto de rediseño",
+
+"smartProjectOverview": "Este proyecto se centró en el rediseño y optimización completa del sitio web de Smart Claims Administration. El objetivo fue mejorar la experiencia de usuario, fortalecer la presencia digital de la marca y garantizar un sitio responsive y optimizado para SEO. Mi rol incluyó investigación de usuarios, diseño UX/UI e implementación completa en WordPress con Elementor.",
+
+"smartProjectChallenge": "El proyecto tuvo un plazo ajustado, lo que exigió una planificación eficiente que incluyó investigación, diseño, desarrollo, responsive y SEO en poco tiempo. Otro desafío clave fue traducir el diseño de Figma a Elementor manteniendo precisión pixel-perfect en layout, tipografía, espaciado y comportamiento responsive en todos los dispositivos.",
+
+"smartWireframeTitle": "Wireframe y estructura",
+"smartWireframeText": "Durante la fase de wireframing creé estructuras de baja fidelidad para definir el flujo de usuario y validar la arquitectura del contenido. También analicé la web anterior para detectar oportunidades de mejora. Estas bases guiaron tanto el diseño como la implementación.",
+
+"smartProjectSolution": "Diseñé una interfaz moderna, limpia y profesional alineada con la identidad de la marca. A través de investigación centrada en el usuario, estructuré el contenido para mejorar navegación, legibilidad y confianza. Implementé el diseño en WordPress con Elementor, optimizando responsive, velocidad y SEO, además de organizar secciones clave como servicios, blogs, formularios y FAQs.",
+
+"smartProjectResult": "El resultado final fue un sitio web completamente rediseñado, responsive y optimizado para SEO que mejoró significativamente la experiencia del usuario y la presencia digital. La web ahora ofrece tiempos de carga rápidos, mejor accesibilidad y mayor rendimiento en buscadores, manteniendo fidelidad al diseño original en todos los dispositivos."
+
+}

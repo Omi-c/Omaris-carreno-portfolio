@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omaris Carreño | Portfolio</title>
+    <link rel="icon" type="image/png" href="imgs/icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- i18next -->
+    <script src="https://unpkg.com/i18next@23.4.6/dist/umd/i18next.min.js"></script>
+  </head>
+
+  <body>
+    <div class="background-blobs">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </div>
+
+    <nav class="navbar">
+      <div class="logo">Portfolio</div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-right" id="navRight">
+        <ul class="nav-menu">
+          <li><a href="about.html" data-i18n="about"></a></li>
+          <li><a href="#experience" data-i18n="experience"></a></li>
+          <li><a href="#projects" data-i18n="projects"></a></li>
+          <li><a href="#websites" data-i18n="websites"></a></li>
+          <li><a href="#skills" data-i18n="skills"></a></li>
+          <li><a href="#contact" data-i18n="contact"></a></li>
+        </ul>
+
+        <div class="lang-toggle">
+          <button class="lang-btn active" onclick="changeLang('en', this)">
+            EN
+          </button>
+          <button class="lang-btn" onclick="changeLang('es', this)">ES</button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h1 class="hero-title">
+        <span data-i18n="heroGreeting"></span>
+        <span class="gradient-text">Omaris Carreño</span>
+      </h1>
+      <h2 class="hero-subtitle" data-i18n="heroSubtitle"></h2>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section fade">
+      <h2 class="section-title gradient-text" data-i18n="about"></h2>
+      <p class="about-text" data-i18n="aboutText"></p>
+
+      <a href="about.html" class="about-btn" data-i18n="aboutButton"></a>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section fade">
+      <h2 class="section-title gradient-text" data-i18n="experience"></h2>
+
+      <!-- Experiencia 1: SALON SOLUTIONS -->
+      <div class="job">
+        <div class="job-details">
+          <h3 class="job-title" data-i18n="exp1Title"></h3>
+          <p class="job-date" data-i18n="exp1Date"></p>
+          <p class="job-company">SALON SOLUTIONS</p>
+        </div>
+        <ul class="job-responsibilities">
+          <li data-i18n="exp1Item1"></li>
+          <li data-i18n="exp1Item2"></li>
+          <li data-i18n="exp1Item3"></li>
+          <li data-i18n="exp1Item4"></li>
+          <li data-i18n="exp1Item5"></li>
+          <li data-i18n="exp1Item6"></li>
+        </ul>
+      </div>
+
+      <!-- Experiencia 2: FREELANCER -->
+      <div class="job">
+        <div class="job-details">
+          <h3 class="job-title" data-i18n="exp2Title"></h3>
+          <p class="job-date" data-i18n="exp2Date"></p>
+          <p class="job-company">FREELANCER</p>
+        </div>
+        <ul class="job-responsibilities">
+          <li data-i18n="exp2Item1"></li>
+          <li data-i18n="exp2Item2"></li>
+          <li data-i18n="exp2Item3"></li>
+        </ul>
+      </div>
+
+      <!-- Experiencia 3: SMART CLAIMS ADMINISTRATION -->
+      <div class="job">
+        <div class="job-details">
+          <h3 class="job-title" data-i18n="exp3Title"></h3>
+          <p class="job-date" data-i18n="exp3Date"></p>
+          <p class="job-company">SMART CLAIMS ADMINISTRATION</p>
+        </div>
+        <ul class="job-responsibilities">
+          <li data-i18n="exp3Item1"></li>
+          <li data-i18n="exp3Item2"></li>
+          <li data-i18n="exp3Item3"></li>
+          <li data-i18n="exp3Item4"></li>
+        </ul>
+      </div>
+
+      <!-- Experiencia 4: GAO TEK INC. -->
+      <div class="job">
+        <div class="job-details">
+          <h3 class="job-title" data-i18n="exp4Title"></h3>
+          <p class="job-date" data-i18n="exp4Date"></p>
+          <p class="job-company">GAO TEK INC.</p>
+        </div>
+        <ul class="job-responsibilities">
+          <li data-i18n="exp4Item1"></li>
+          <li data-i18n="exp4Item2"></li>
+          <li data-i18n="exp4Item3"></li>
+          <li data-i18n="exp4Item4"></li>
+          <li data-i18n="exp4Item5"></li>
+        </ul>
+      </div>
+
+      <!-- Experiencia 5: LABORATORIO LOMA LINDA -->
+      <div class="job">
+        <div class="job-details">
+          <h3 class="job-title" data-i18n="exp5Title"></h3>
+          <p class="job-date" data-i18n="exp5Date"></p>
+          <p class="job-company">LABORATORIO LOMA LINDA</p>
+        </div>
+        <ul class="job-responsibilities">
+          <li data-i18n="exp5Item1"></li>
+          <li data-i18n="exp5Item2"></li>
+          <li data-i18n="exp5Item3"></li>
+          <li data-i18n="exp5Item4"></li>
+          <li data-i18n="exp5Item5"></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section fade">
+      <h2 class="section-title gradient-text" data-i18n="projects"></h2>
+
+      <div class="projects-grid">
+        <!-- Proyecto 1: Clinical Laboratory Management Web System -->
+        <div class="project-card">
+          <a href="proyecto_laboratorio.html" class="project-link">
+            <div class="project-image">
+              <img
+                src="imgs/image1.webp"
+                alt="Clinical Laboratory Management Web System"
+              />
+            </div>
+            <h3 class="project-title">
+              Clinical Laboratory Management Web System
+            </h3>
+          </a>
+        </div>
+
+        <!-- Proyecto 2: Cinema App Design for Cines Unidos -->
+        <div class="project-card">
+          <a href="proyecto_cinema.html" class="project-link">
+            <div class="project-image">
+              <img
+                src="imgs/image2.webp"
+                alt="Cinema App Design for Cines Unidos"
+              />
+            </div>
+            <h3 class="project-title">Cinema App Design for Cines Unidos</h3>
+          </a>
+        </div>
+
+        <!-- Proyecto 3: Redesign Website for Gao Tek Inc -->
+        <div class="project-card">
+          <a href="proyecto_gaotek.html" class="project-link">
+            <div class="project-image">
+              <img
+                src="imgs/image3.webp"
+                alt="Redesign Website for Gao Tek Inc"
+              />
+            </div>
+            <h3 class="project-title">Redesign Website for Gao Tek Inc</h3>
+          </a>
+        </div>
+
+        <!-- Proyecto 4: Food Delivery Mobile App -->
+        <div class="project-card">
+          <a href="proyecto_food_delivery.html" class="project-link">
+            <div class="project-image">
+              <img src="imgs/image4.webp" alt="Food Delivery Mobile App" />
+            </div>
+            <h3 class="project-title">Food Delivery Mobile App</h3>
+          </a>
+        </div>
+
+        <!-- Proyecto 5: Thermal Springs App Design -->
+        <div class="project-card">
+          <a href="proyecto_thermal_springs.html" class="project-link">
+            <div class="project-image">
+              <img src="imgs/image5.webp" alt="Thermal Springs App Design" />
+            </div>
+            <h3 class="project-title">Thermal Springs App Design</h3>
+          </a>
+        </div>
+
+        <!-- Proyecto 6: Smart Claims Website Re-Design Project -->
+        <div class="project-card">
+          <a href="proyecto_smart_claims.html" class="project-link">
+            <div class="project-image">
+              <img
+                src="imgs/image6.webp"
+                alt="Smart Claims Website Re-Design Project"
+              />
+            </div>
+            <h3 class="project-title">
+              Smart Claims Website Re-Design Project
+            </h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Websites Section -->
+    <section id="websites" class="section fade">
+      <h2 class="section-title gradient-text" data-i18n="websites"></h2>
+
+      <div class="websites-grid" id="websitesGrid">
+        <a
+          href="https://www.elementalbc.com.mx/"
+          target="_blank"
+          class="website-card"
+          >Elemental</a
+        >
+        <a
+          href="https://www.aquamedbodycare.com/"
+          target="_blank"
+          class="website-card"
+          >Aquamed Bodycare</a
+        >
+        <a
+          href="https://renovamicropigmentacion.com/"
+          target="_blank"
+          class="website-card"
+          >Renovac Estetic</a
+        >
+        <a href="https://isaaznarmua.com/" target="_blank" class="website-card"
+          >Isa Aznar MUA</a
+        >
+        <a
+          href="https://salonestilomoderno.com/"
+          target="_blank"
+          class="website-card"
+          >Salón Estilo Moderno</a
+        >
+        <a href="https://xandrastyle.com/" target="_blank" class="website-card"
+          >Xandra Style</a
+        >
+        <a
+          href="https://ednailsstudio.com/"
+          target="_blank"
+          class="website-card"
+          >ED Nails Studio</a
+        >
+        <a
+          href="https://amarnaestilistass.com/"
+          target="_blank"
+          class="website-card"
+          >Amarna Estilistas</a
+        >
+        <a
+          href="https://barberiabucks.com/"
+          target="_blank"
+          class="website-card"
+          >Barbería Bucks</a
+        >
+        <a
+          href="https://peluqueriaangeles.com/"
+          target="_blank"
+          class="website-card"
+          >Peluquería Ángeles</a
+        >
+        <a
+          href="https://katerinemantilla.com/"
+          target="_blank"
+          class="website-card"
+          >Katerine Mantilla</a
+        >
+        <a href="https://silviarc.com/" target="_blank" class="website-card"
+          >Silvia RC</a
+        >
+
+        <!-- hidden initially -->
+        <a
+          href="https://mynbynataliacruz.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >MYN by Natalia Cruz</a
+        >
+        <a
+          href="https://anasanzpsicologa.es/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Ana Sanz</a
+        >
+        <a
+          href="https://bolomeysalonspa.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Bolomey Spa</a
+        >
+        <a
+          href="https://centroloto.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Centro Loto</a
+        >
+        <a
+          href="https://unicabeautysansebastian.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Unica Beauty</a
+        >
+        <a
+          href="https://lolyameijeiras.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Loly Ameijeiras</a
+        >
+        <a
+          href="https://bodyfacespacdmx.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Body Face Spa</a
+        >
+        <a
+          href="https://bextbeautystudio.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Bext Beauty Studio</a
+        >
+        <a
+          href="https://patriciaveigahairstudio.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Patricia Veiga Hair Studio</a
+        >
+        <a
+          href="https://qpeluqueros.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >QPeluqueros</a
+        >
+        <a
+          href="https://nau-estudio.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Nau Estudio</a
+        >
+        <a
+          href="https://colorspeluqueriasaludable.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Color's Peluquería Saludable</a
+        >
+        <a
+          href="https://lotolunarmx.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Loto Lunar</a
+        >
+        <a
+          href="https://ateliernailscuu.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Atelier Nails</a
+        >
+        <a
+          href="https://esenciabellamadrid.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Esencia Belleza</a
+        >
+        <a
+          href="https://coccolarebelleza.es/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Coccolare Belleza</a
+        >
+        <a
+          href="https://margotcevallos.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Margot Cevallos</a
+        >
+        <a
+          href="https://beauty-day-spa.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Beauty Day Spa</a
+        >
+        <a
+          href="https://QoteStylist.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Qote Stylist</a
+        >
+        <a
+          href="https://esteticafrancys.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Estética Francys</a
+        >
+        <a
+          href="https://vecampeluqueriayestetica.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Vecam Peluquería y Estética</a
+        >
+        <a
+          href="https://studioglowupibiza.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Studio Glow Up Ibiza</a
+        >
+        <a
+          href="https://studiobeautyverso.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Studio Beauty Verso</a
+        >
+        <a
+          href="https://clinicasmagno.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Clínicas Magno</a
+        >
+        <a
+          href="https://passerellamallorca.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Passerella</a
+        >
+        <a
+          href="https://Noeliapeluqueriayesteticacarmen.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Noelia Peluquería y Estética Carmen</a
+        >
+        <a
+          href="https://anabellcentrodeestetica.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Anabell Centro de Estética</a
+        >
+        <a
+          href="http://karinnails.es/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Karin Nails</a
+        >
+        <a
+          href="https://beatrizescanuela.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Beatriz Escañuela</a
+        >
+        <a
+          href="https://auriculoterapiafrangamiz.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Auriculoterapia Fran Gámiz</a
+        >
+        <a
+          href="https://anadermaf.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Ana Dermaf</a
+        >
+        <a
+          href="http://centroesteticobellezaperuana.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Centro Estético Belleza Peruana</a
+        >
+        <a
+          href="http://idi-estetic.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >IDI Estetic</a
+        >
+        <a
+          href="https://www.serenitemx.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Serenite MX</a
+        >
+        <a
+          href="https://xhulacoquette.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Xhula Coquette</a
+        >
+        <a
+          href="https://Barberiasalonfnix.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Barbería Salón Fénix</a
+        >
+
+        <a
+          href="https://gaiafacialesymasajes.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Gaia Faciales y Masajes</a
+        >
+
+        <a
+          href="https://pelupeines.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >La Niña de los Peines</a
+        >
+
+        <a
+          href="https://nixdbelle.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Nix d Belle</a
+        >
+
+        <a
+          href="https://Viancalopezcoloristaint.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Vianca López - Colorista Int.</a
+        >
+
+        <a
+          href="https://colors-peluqueriasaludable.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Color's Peluquería Saludable</a
+        >
+
+        <a
+          href="https://EsteticaVictoriaStudio.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Estética Victoria Studio</a
+        >
+
+        <a
+          href="https://elegancesalonbarbershop.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Elegance Salon & Barbershop</a
+        >
+
+        <a
+          href="https://Universalbeautycl.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Universal Beauty CL</a
+        >
+
+        <a
+          href="https://tribeautymallorca.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Tribeauty Mallorca</a
+        >
+
+        <a
+          href="https://tubellezaholistica.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Tú Belleza Holística</a
+        >
+
+        <a
+          href="https://ediesteticaybelleza.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >EDI Estética y Belleza</a
+        >
+
+        <a
+          href="https://esteticailussion.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Estética Ilussion</a
+        >
+
+        <a
+          href="https://marthabeautyatelier.com/"
+          target="_blank"
+          class="website-card hidden-site"
+          >Martha Beauty Atelier</a
+        >
+
+      </div>
+
+      <button
+        id="toggleWebsitesBtn"
+        class="show-more-btn"
+        data-i18n="showMoreWebsites"
+      ></button>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section fade">
+      <h2 class="section-title gradient-text" data-i18n="skillsTitle"></h2>
+
+      <div class="skills-grid">
+        <!-- Skill 1: JavaScript -->
+        <div class="skill-card">
+          <img src="imgs/js.png" alt="JavaScript" />
+          <p>JavaScript</p>
+        </div>
+
+        <!-- Skill 2: React -->
+        <div class="skill-card">
+          <img src="imgs/react.png" alt="React" />
+          <p>React</p>
+        </div>
+
+        <!-- Skill 3: WordPress -->
+        <div class="skill-card">
+          <img src="imgs/wordpress.webp" alt="WordPress" />
+          <p>WordPress</p>
+        </div>
+
+        <!-- Skill 4: Java -->
+        <div class="skill-card">
+          <img src="imgs/java.png" alt="Java" />
+          <p>Java</p>
+        </div>
+
+        <!-- Skill 5: Nest.js -->
+        <div class="skill-card">
+          <img src="imgs/nest.png" alt="Nest.js" />
+          <p>Nest.js</p>
+        </div>
+
+        <!-- Skill 6: MySQL -->
+        <div class="skill-card">
+          <img src="imgs/mysql.png" alt="MySQL" />
+          <p>MySQL</p>
+        </div>
+
+        <!-- Skill 7: CSS -->
+        <div class="skill-card">
+          <img src="imgs/css.png" alt="CSS" />
+          <p>CSS</p>
+        </div>
+
+        <!-- Skill 8: HTML -->
+        <div class="skill-card">
+          <img src="imgs/html.webp" alt="HTML" />
+          <p>HTML</p>
+        </div>
+
+        <!-- Skill 9: Wix Studio -->
+        <div class="skill-card">
+          <img src="imgs/wix.png" alt="Wix Studio" />
+          <p>Wix Studio</p>
+        </div>
+
+        <!-- Skill 10: Webflow -->
+        <div class="skill-card">
+          <img src="imgs/webflow.png" alt="Webflow" />
+          <p>Webflow</p>
+        </div>
+
+        <!-- Skill 11: Shopify -->
+        <div class="skill-card">
+          <img src="imgs/shopify.webp" alt="Shopify" />
+          <p>Shopify</p>
+        </div>
+
+        <!-- Skill 12: Figma -->
+        <div class="skill-card">
+          <img src="imgs/figma.png" alt="Figma" />
+          <p>Figma</p>
+        </div>
+
+        <!-- Skill 13: Python -->
+        <div class="skill-card">
+          <img src="imgs/python.png" alt="Python" />
+          <p>Python</p>
+        </div>
+
+        <!-- Skill 14: Git -->
+        <div class="skill-card">
+          <img src="imgs/git.png" alt="Git" />
+          <p>Git</p>
+        </div>
+
+        <!-- Skill 15: GitHub -->
+        <div class="skill-card">
+          <img src="imgs/github.png" alt="GitHub" />
+          <p>GitHub</p>
+        </div>
+
+        <!-- Skill 16: Canva -->
+        <div class="skill-card">
+          <img src="imgs/canva.png" alt="Canva" />
+          <p>Canva</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2 class="contact-title" data-i18n="contactTitle"></h2>
+
+      <p class="contact-text" data-i18n="contactText"></p>
+
+      <div class="contact-buttons">
+        <a
+          href="mailto:omariscarreno.dev@gmail.com"
+          class="contact-btn primary"
+          data-i18n="sendEmail"
+        ></a>
+
+        <a
+          href="https://www.linkedin.com/in/omaris-carreno/"
+          target="_blank"
+          class="contact-btn secondary"
+          data-i18n="linkedin"
+        ></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Omaris Carreño</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

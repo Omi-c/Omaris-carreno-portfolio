@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinical Laboratory Management Web System | Omaris Carreño</title>
+    <link rel="icon" type="image/png" href="imgs/icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- i18next -->
+    <script src="https://unpkg.com/i18next@23.4.6/dist/umd/i18next.min.js"></script>
+  </head>
+
+  <body>
+    <div class="background-blobs">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </div>
+
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">Portfolio</a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-right" id="navRight">
+        <ul class="nav-menu">
+          <li><a href="about.html" data-i18n="about"></a></li>
+          <li><a href="index.html#experience" data-i18n="experience"></a></li>
+          <li><a href="index.html#projects" class="active-link" data-i18n="projects"></a></li>
+          <li><a href="index.html#websites" data-i18n="websites"></a></li>
+          <li><a href="index.html#skills" data-i18n="skills"></a></li>
+          <li><a href="index.html#contact" data-i18n="contact"></a></li>
+        </ul>
+
+        <div class="lang-toggle">
+          <button class="lang-btn active" onclick="changeLang('en', this)">EN</button>
+          <button class="lang-btn" onclick="changeLang('es', this)">ES</button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="project-hero">
+      <div class="project-hero-content fade">
+        <p class="project-eyebrow" data-i18n="projectCaseStudyLabel"></p>
+        <h1 class="project-hero-title" data-i18n="labProjectTitle"></h1>
+        <p class="project-hero-subtitle" data-i18n="labProjectSubtitle"></p>
+      </div>
+
+      <div class="project-hero-image fade">
+        <img
+          src="imgs/image1.webp"
+          alt="Clinical Laboratory Management Web System"
+        />
+      </div>
+    </section>
+
+    <section class="section project-overview fade">
+      <div class="project-meta-grid">
+        <div class="project-meta-card">
+          <span class="project-meta-label" data-i18n="projectRoleLabel"></span>
+          <p class="project-meta-value" data-i18n="labProjectRole"></p>
+        </div>
+
+        <div class="project-meta-card">
+          <span class="project-meta-label" data-i18n="projectTimelineLabel"></span>
+          <p class="project-meta-value" data-i18n="labProjectTimeline"></p>
+        </div>
+
+        <div class="project-meta-card">
+          <span class="project-meta-label" data-i18n="projectTypeLabel"></span>
+          <p class="project-meta-value" data-i18n="labProjectType"></p>
+        </div>
+
+        <div class="project-meta-card">
+          <span class="project-meta-label" data-i18n="projectToolsLabel"></span>
+          <p class="project-meta-value" data-i18n="labProjectTools"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade project-section">
+      <h2 class="section-title gradient-text" data-i18n="projectOverviewTitle"></h2>
+      <p class="project-text" data-i18n="labProjectOverview"></p>
+    </section>
+
+    <section class="section fade project-section">
+      <h2 class="section-title gradient-text" data-i18n="projectProblemTitle"></h2>
+      <p class="project-text" data-i18n="labProjectProblem"></p>
+    </section>
+
+    <section class="section fade project-section">
+      <h2 class="section-title gradient-text" data-i18n="projectSolutionTitle"></h2>
+      <p class="project-text" data-i18n="labProjectSolution"></p>
+    </section>
+
+    <section class="section fade project-section">
+      <h2 class="section-title gradient-text" data-i18n="projectDevelopmentImpactTitle"></h2>
+      <p class="project-text" data-i18n="labProjectDevelopmentImpact"></p>
+    </section>
+
+    <section class="section fade">
+      <h2 class="section-title gradient-text" data-i18n="projectResultsTitle"></h2>
+
+      <div class="project-results-grid">
+        <div class="project-result-card">
+          <h3 data-i18n="projectMetric1Title"></h3>
+          <p data-i18n="labProjectMetric1"></p>
+        </div>
+
+        <div class="project-result-card">
+          <h3 data-i18n="projectMetric2Title"></h3>
+          <p data-i18n="labProjectMetric2"></p>
+        </div>
+
+        <div class="project-result-card">
+          <h3 data-i18n="projectMetric3Title"></h3>
+          <p data-i18n="labProjectMetric3"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade project-section">
+      <h2 class="section-title gradient-text" data-i18n="projectTechTitle"></h2>
+
+      <div class="project-tech-list">
+        <span class="project-tech-pill">React.js</span>
+        <span class="project-tech-pill">Tailwind CSS</span>
+        <span class="project-tech-pill">Nest.js</span>
+        <span class="project-tech-pill">MySQL</span>
+      </div>
+    </section>
+
+    <section class="section fade project-section">
+      <h2 class="section-title gradient-text" data-i18n="projectLearningsTitle"></h2>
+      <p class="project-text" data-i18n="labProjectLearnings"></p>
+    </section>
+
+    <section class="section fade project-navigation">
+      <a href="index.html#projects" class="about-btn" data-i18n="backToProjects"></a>
+    </section>
+
+    <footer>
+      <p>© 2026 Omaris Carreño</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

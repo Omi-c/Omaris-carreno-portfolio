@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me | Omaris Carreño</title>
+    <link rel="icon" type="image/png" href="imgs/icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- i18next -->
+    <script src="https://unpkg.com/i18next@23.4.6/dist/umd/i18next.min.js"></script>
+  </head>
+
+  <body>
+    <div class="background-blobs">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </div>
+
+    <nav class="navbar">
+      <div class="logo"><a href="index.html">Portfolio</a></div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-right" id="navRight">
+        <ul class="nav-menu">
+          <li>
+            <a href="about.html" class="active-link" data-i18n="about"></a>
+          </li>
+          <li><a href="index.html#experience" data-i18n="experience"></a></li>
+          <li><a href="index.html#projects" data-i18n="projects"></a></li>
+          <li><a href="index.html#websites" data-i18n="websites"></a></li>
+          <li><a href="index.html#skills" data-i18n="skills"></a></li>
+          <li><a href="#contact" data-i18n="contact"></a></li>
+        </ul>
+
+        <div class="lang-toggle">
+          <button class="lang-btn active" onclick="changeLang('en', this)">
+            EN
+          </button>
+          <button class="lang-btn" onclick="changeLang('es', this)">ES</button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero about-hero">
+      <h1 class="hero-title gradient-text" data-i18n="aboutPageTitle"></h1>
+      <h2 class="hero-subtitle" data-i18n="aboutPageSubtitle"></h2>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section fade">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <h3 class="stat-number" data-target="4" data-suffix="+">0</h3>
+          <p class="stat-label" data-i18n="statExperience"></p>
+        </div>
+
+        <div class="stat-divider"></div>
+
+        <div class="stat-item">
+          <h3 class="stat-number" data-target="100" data-suffix="+">0</h3>
+          <p class="stat-label" data-i18n="statWebsites"></p>
+        </div>
+
+        <div class="stat-divider"></div>
+
+        <div class="stat-item">
+          <h3 class="stat-number" data-target="100" data-suffix="%">0</h3>
+          <p class="stat-label" data-i18n="statSatisfaction"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section fade about-page-section">
+      <h2 class="section-title gradient-text" data-i18n="aboutLongTitle"></h2>
+
+      <div class="about-page-content">
+        <p data-i18n="aboutLongText1"></p>
+        <p data-i18n="aboutLongText2"></p>
+        <p data-i18n="aboutLongText3"></p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section fade services-section">
+      <h2 class="section-title gradient-text" data-i18n="servicesTitle"></h2>
+
+      <div class="services-list">
+        <div class="service-item" data-i18n="service1"></div>
+        <div class="service-item" data-i18n="service2"></div>
+        <div class="service-item" data-i18n="service3"></div>
+        <div class="service-item" data-i18n="service4"></div>
+        <div class="service-item" data-i18n="service5"></div>
+        <div class="service-item" data-i18n="service6"></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2 class="contact-title" data-i18n="contactTitle"></h2>
+
+      <p class="contact-text" data-i18n="contactText"></p>
+
+      <div class="contact-buttons">
+        <a
+          href="mailto:omariscarreno.dev@gmail.com"
+          class="contact-btn primary"
+          data-i18n="sendEmail"
+        ></a>
+
+        <a
+          href="https://www.linkedin.com/in/omaris-carreno/"
+          target="_blank"
+          class="contact-btn secondary"
+          data-i18n="linkedin"
+        ></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Omaris Carreño</p>
+    </footer>
+
+    <script src="about.js"></script>
+  </body>
+</html>
